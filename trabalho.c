@@ -8,18 +8,18 @@ int main(int argc, char *argv[]) {
     if (argc == 3 && strcmp(argv[1], "-i") == 0) {
 
         printf("Modo de importacao ativado ... nome do arquivo = %s\n", argv[2]);
-        // importar(argv[2]);
+        // importar(argv[2]);//indefinido
 
     } else if (argc == 3 && strcmp(argv[1], "-e") == 0) {
 
         printf("Modo de execucao de operacoes ativado ... nome do arquivo = %s\n", argv[2]);
-        // executar_operacoes(argv[2]));
+        // executar_operacoes(argv[2])); //parte do Giovane**(e do Gabriel talvez)
 
     } else if (argc == 2 && strcmp(argv[1], "-p") == 0) {
 
 
         printf("Modo de impressao da LED ativado ...\n");
-        // imprimir_led();
+        // imprimir_led(); //parte Do Vinicius**
 
     } else {
 
